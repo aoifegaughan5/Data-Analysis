@@ -1,25 +1,50 @@
-# Data-Analysis - Advanced Programming Summative Assessment
-Designes and developed a prototype application that demonstrates how data from the given data set can be formatted, reshaped and used to generate specific outputs.
-Single Programme with the below functionalities:
+# **Data Analysis - Advanced Programming Summative Assessment**
 
-￿ A means to load the initial data set (CSV file(s) provided) and translate it into
-a suitable format – either XML, JSON or an entity relationship structure (not
-CSV).
-￿ A means to back up the suitable format using either files or a database. This
-should preserve the current state of the data when the program is closed and
-make it available when the program is reopened.
-￿ A process for cleaning and preparing the data set, managing inconsistencies,
-errors and missing values. Cleaning can be done at either the CSV stage or
-after you have translated the data set into a new format and is required to be
-done before you apply any of the data manipulations and outputs detailed
-below.
-A graphical user interface(s) for interacting with the data set(s) that enables
-the user to:
-o Load the initial data set (the CSV file(s)).
-o Apply the cleaning, transformation, REMOVE and RESHAPE to
-produce a prepared data set.
-o Load the prepared data set (from its translated format).
-o Manipulate the range of values used to generate OUTPUT STATISTICS,
-GRAPHS and perform CORRELATION analysis.
-o Use the prepared data set to generate OUTPUT STATISTICS, GRAPHS
-and CORRELATION results.
+## **Project Overview**
+This project involves the design and development of a prototype application that demonstrates how data from a provided dataset can be:
+- **Formatted**
+- **Reshaped**
+- **Used to generate specific outputs**
+
+The application is a single program equipped with the following key functionalities.
+
+---
+
+## **Features**
+
+### **1. Data Loading and Transformation**
+- Load the initial dataset (CSV file(s) provided).
+- Translate the dataset into a suitable format:
+  - Options: **XML**, **JSON**, or **Entity-Relationship Structure** (not CSV).
+
+### **2. Data Backup**
+- Preserve the current state of the dataset when the program is closed.
+- Enable the dataset to be available when the program is reopened.
+- Support for backup using:
+  - File-based storage.
+  - Database storage.
+
+### **3. Data Cleaning and Preparation**
+- Manage:
+  - Inconsistencies
+  - Errors
+  - Missing values
+- Cleaning can be performed:
+  - At the CSV stage.
+  - After transforming the dataset into the new format.
+- Ensure data is cleaned before performing any manipulations or generating outputs.
+
+### **4. Graphical User Interface (GUI)**
+The GUI allows users to:
+- Load the initial dataset (CSV file(s)).
+- Apply **cleaning**, **transformation**, **removal**, and **reshaping** operations to produce a prepared dataset.
+- Load the prepared dataset (from its translated format).
+- Manipulate the range of values to:
+  - Generate **output statistics**, **graphs**, and **correlation analysis**.
+- View results for:
+  - **Output statistics**
+  - **Graphs**
+  - **Correlation analysis**
+
+---
+
